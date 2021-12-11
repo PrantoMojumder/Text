@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;;
+}
+.wrapper{
+	height: 600px;
+	width: 960px;
+	background: gray;
+	margin:30px auto;
+
+}
+/*start main-menu*/
+ header{
+	height: 60px;
+	width: 100%;
+	background: #09cd2a;
+}
+.brand-logo{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.brand-logo img{
+	padding: 15px 18px;
+}
+	/*Start main-menu*/
+.main-menu{
+	width: 70%;
+	height: 100%;
+	float: right;
+}
+.main-menu ul{
+	list-style: none;
+}
+.main-menu ul li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	line-height: 60px;
+}
+.main-menu:hover{
+	background: #1b946c;
+	cursor: pointer;
+}
+.main-menu ul li a{
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+}
+	/*End main-menu*/
+	/*Start main-contant*/
+	.contant{
+		width: 100%;
+		height: 480px;
+	}
+	.contant aside{
+		width: 25%;
+		height: 100%;
+		background: #09cd2a;
+		float: left;
+	}
+	aside ul{
+		list-style: none;
+		text-align: center;
+	}
+	.sideber{
+		color: white;
+		font-weight: 700;
+		background: #1b946c;
+	}
+	.sideber span{
+		line-height: 50px;
+	}
+	aside ul li{
+		height: 50px;
+		border-bottom: 1px solid gray;
+	}
+	aside ul li:hover{
+		background: #1b946c;
+		cursor: pointer;
+	}
+	aside ul li a{
+		color: white;
+		text-decoration: none;
+		line-height: 50px;
+	}
+	article{
+		width: 75%;
+		float: left;
+		padding: 15px;
+	}
+	article hr{
+		margin: 15px 0;
+	}
+	.Image{
+		text-align: center;
+		margin: 10px 0;
+	}
+	
+	article p{
+		text-align: justify;
+	}
+/*End main-contant*/
+/*Start footer*/
+footer{
+	height: 60px;
+	width: 100%;
+	background: #09cd2a;
+}
+footer{
+	text-align: center;
+	color: white;
+	line-height: 60px;
+}
+/*End footer*/
